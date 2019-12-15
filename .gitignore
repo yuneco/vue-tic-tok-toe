@@ -1,0 +1,48 @@
+
+# Created by https://www.gitignore.io/api/vue,vuejs,macos,firebase
+
+### Firebase ###
+**/node_modules/*
+**/.firebaserc
+.runtimeconfig.json
+.firebase/
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### Vue ###
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_componets
+dist/
+
+# End of https://www.gitignore.io/api/vue,vuejs,macos,firebase
