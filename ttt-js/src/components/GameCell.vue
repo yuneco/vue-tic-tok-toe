@@ -2,7 +2,7 @@
   <div class="game-cell"
     @click="$emit('click')"
     :style="{
-      backgroundImage: owner ? `url('/imgs/stone_${owner}.svg')` : 'none'
+      backgroundImage: owner ? `url('imgs/stone_${owner}.svg')` : 'none'
     }"
   >
   </div>
